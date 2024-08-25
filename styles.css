@@ -1,0 +1,42 @@
+body {
+    font-family: "Akaya Kanadaka", system-ui;
+    text-align: center;
+    background: repeating-linear-gradient(
+        45deg,           /* Ângulo das listras */
+        #7a1212,         /* Cor da listra clara */
+        #6b0d0d 10px,    /* Largura da listra clara */
+        #000000 10px,    /* Cor da listra escura */
+        #000000 20px     /* Largura da listra escura */
+    );
+    color: rgb(255, 255, 255);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#field {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.player {
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+}

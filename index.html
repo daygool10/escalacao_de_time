@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <title>Escalação de Futebol</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Escalação de Futebol</h1>
+        <select id="formation" onchange="changeFormation()">
+            <option value="4-4-2">4-4-2</option>
+            <option value="4-3-3">4-3-3</option>
+            <option value="3-5-2">3-5-2</option>
+            <option value="5-3-2">5-3-2</option>
+            <option value="4-2-3-1">4-2-3-1</option>
+            <option value="3-4-3">3-4-3</option>
+            <option value="4-5-1">4-5-1</option>
+            <option value="4-1-4-1">4-1-4-1</option>
+            <option value="4-2-4">4-2-4</option> 
+        </select>
+    </header>
+
+    <main id="field">
+        <!-- Os jogadores serão posicionados aqui -->
+    </main>
+
+    <footer>
+        <p>Escolha uma formação e clique nos jogadores para editar os nomes.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
